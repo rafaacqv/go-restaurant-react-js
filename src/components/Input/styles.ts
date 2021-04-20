@@ -1,8 +1,8 @@
 import styled, { css } from 'styled-components';
 
 interface StyledComponentProps {
-  isFocused: boolean,
-  isFilled: boolean,
+  isFocused: boolean;
+  isFilled: boolean;
 }
 
 export const Container = styled.div<StyledComponentProps>`

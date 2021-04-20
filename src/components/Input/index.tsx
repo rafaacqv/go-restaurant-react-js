@@ -11,9 +11,9 @@ import { useField } from '@unform/core';
 import { Container } from './styles';
 
 interface InputProps {
-  name: string,
-  placeholder?: string,
-  icon?: React.ComponentType<IconBaseProps>,
+  name: string;
+  placeholder?: string;
+  icon?: React.ComponentType<IconBaseProps>;
 }
 
 const Input = ({ name, icon: Icon, ...rest }: InputProps) => {

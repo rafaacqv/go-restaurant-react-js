@@ -5,18 +5,18 @@ import { Container } from './styles';
 import api from '../../services/api';
 
 interface Food {
-  id: Number,
-  name: string,
-  description: string,
-  price: string,
-  available: boolean,
-  image: string,
+  id: Number;
+  name: string;
+  description: string;
+  price: string;
+  available: boolean;
+  image: string;
 }
 
 interface FoodProps {
-  food: Food,
-  handleDelete: (id: Number) => void,
-  handleEditFood: (food: Food) => void,
+  food: Food;
+  handleDelete: (id: Number) => void;
+  handleEditFood: (food: Food) => void;
 }
 
 
