@@ -5,6 +5,10 @@ import { Form } from './styles';
 import Modal from '../Modal';
 import Input from '../Input';
 
+function ModalAddFood() {
+
+}
+/*
 class ModalAddFood extends Component {
   constructor(props) {
     super(props);
@@ -43,5 +47,7 @@ class ModalAddFood extends Component {
     );
   }
 };
+
+*/
 
 export default ModalAddFood;

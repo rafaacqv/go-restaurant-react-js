@@ -7,7 +7,7 @@ interface ModalProps {
   children: ReactNode;
 }
 
-function Modal ({ isOpen, setIsOpen, children }: ModalProps) {
+export default function Modal ({ isOpen, setIsOpen, children }: ModalProps) {
   const [ modalStatus, setModalStatus ] = useState(isOpen);
 
   useEffect(() => {
@@ -44,4 +44,3 @@ function Modal ({ isOpen, setIsOpen, children }: ModalProps) {
   );
 }
 
-export default Modal;
