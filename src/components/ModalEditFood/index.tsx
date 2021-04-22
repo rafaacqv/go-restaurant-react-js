@@ -10,7 +10,7 @@ interface EditFoodData {
   name: string;
   description: string;
   price: string;
-  available: string;
+  available: boolean;
   image: string;
 }
 
